@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2d222f;
+  color: #fadcd5;
+}
+.navbar {
+  background-color: #1b0c1a;
+  padding: 15px;
+  text-align: center;
+}
+.navbar a {
+  color: #fadcd5;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.header {
+  text-align: center;
+  padding: 50px 20px;
+}
+.header h1 {
+  font-size: 2.5em;
+}
+.hero {
+  background-image: url("path_to_hero_image.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fadcd5;
+  text-align: center;
+  padding: 100px 20px;
+  position: relative;
+}
+.hero h2 {
+  font-size: 2.5em;
+}
+.hero p {
+  font-size: 1.2em;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #765d67;
+  color: #fadcd5;
+}
+.section img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.section h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.section p {
+  font-size: 1.2em;
+  max-width: 800px;
+  text-align: center;
+}
+.section:nth-child(even) {
+  background-color: #6d3c52;
+}
