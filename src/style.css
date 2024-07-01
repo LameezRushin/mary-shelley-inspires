@@ -24,7 +24,7 @@ body {
   font-size: 2.5em;
 }
 .hero {
-  background-image: url("path_to_hero_image.jpg");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/091/original/pexels-minan1398-698554.jpg?1719828191");
   background-size: cover;
   background-position: center;
   color: #fadcd5;
